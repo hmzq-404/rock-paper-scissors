@@ -5,9 +5,30 @@
         <meta charset="utf-8">
         <title>Rock, Paper, Scissors</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
-        <script src="script.js"></script>
+        <h1>Rock, Paper, Scissors</h1>
+        <h2 class="round-number">Round #0</h2>
+        <div class="choices-container">
+            <div class="text-container">
+                <h3 class="player-score">Your score: 0</h3>
+                <h3 class="computer-score">Computer's score: 0</h3>
+            </div>
+            
+            <div class="text-container">
+                <h3 class="player-choice"></h3>
+                <h3 class="computer-choice"></h3>
+            </div>
+
+            <div class="img-container">
+                <img src="img/rock.jpeg" alt="rock" class="choice-img" data-choice="rock">
+                <img src="img/paper.jpg" alt="paper" class="choice-img" data-choice="paper">
+                <img src="img/scissors.jpg" alt="scissors" class="choice-img" data-choice="scissors">
+            </div>
+        </div>
+        <h3 class="result"></h3>
+        <button class="reset-button">Reset</button>
     </body>
 </html>
